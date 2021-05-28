@@ -1,0 +1,17 @@
+<!--pages/shuju/shuju.wxml-->
+<view class="title">
+  <view>你是身体数据？？？？？</view>
+</view>
+<view>
+<form bindsubmit="csc" bindreset="reset">
+  <input name="name" placeholder="请输入你的性别" type="text" ></input>
+  <input name="shengao" placeholder="请输入你的身高（cm）" type="digit" auto-focus="true"></input>
+  <input name="tizhong" placeholder="请输入你的体重（kg）" type="digit" auto-focus="true"></input>
+  <input name="year" placeholder="请输入你的年龄" type="number" auto-focus="true"></input>
+  <button type="primary" form-type="submit">计算出你的每天可以的热量输入</button>
+  <view class="shujushuchu">
+    每天可以摄入的热量:
+    <view>{{reliang}}千卡</view>
+  </view>
+</form>
+</view>

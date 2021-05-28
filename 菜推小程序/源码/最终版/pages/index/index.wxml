@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<view >
+  <view class="title">今天你要吃什么？</view>
+  <view class="title">我来告诉你。。。。。</view>
+ 
+<!-- 引用组件↓↓↓ -->
+<zhuanpan id='zhuanpan' 
+   bind:myData='getData' 
+   bind:myAwards="getAwards" 
+   bind:startZhuan="startZhuan" 
+   size='{{size}}' 
+   musicflg='{{musicflg}}' 
+   fastJuedin='{{fastJuedin}}' 
+   repeat='{{repeat}}' 
+   zhuanpanArr='{{xiaojuedingArr}}' 
+   awardsConfig='{{awardsConfig}}'></zhuanpan>
+<!-- 引用组件↑↑↑ -->
+<view class="title">{{s_awards}}</view>
+<view class="liebiao">配餐列表：
+  <text>\n{{liebiao}}</text>
+</view>
+</view>

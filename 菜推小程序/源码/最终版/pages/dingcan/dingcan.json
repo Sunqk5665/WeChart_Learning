@@ -1,0 +1,9 @@
+{
+  "usingComponents": {},
+  "window":{
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "该模块制作===>王延辰",
+    "backgroundColor": "#eeeeee"
+  }
+}

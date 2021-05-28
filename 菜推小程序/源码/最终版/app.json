@@ -1,0 +1,47 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/shuju/shuju",
+    "pages/shibie/shibie",
+    "pages/dingcan/dingcan",
+    "pages/order/order",
+    "pages/pay/pay"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "吃嘛？？？",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color": "#000",
+    "selectedColor": "#1E90FF",
+    "list": [{
+     "pagePath": "pages/index/index",
+     "text": "选餐",
+     "iconPath": "/images/选择_off.png",
+     "selectedIconPath": "/images/选择_on.png" 
+    },
+    {
+      "pagePath": "pages/shuju/shuju",
+      "text": "个人数据",
+      "iconPath": "/images/数据_off.png",
+      "selectedIconPath": "/images/数据_on.png" 
+     },
+     {
+      "pagePath": "pages/shibie/shibie",
+      "text": "拍照识别",
+      "iconPath": "/images/相机_off.png",
+      "selectedIconPath": "/images/相机_on.png" 
+     },{
+      "pagePath": "pages/dingcan/dingcan",
+      "text": "订餐",
+      "iconPath": "/images/订餐-off.png",
+      "selectedIconPath": "/images/订餐-on.png" 
+     }
+  ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
